@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.audio.zaycev.net"
        name="zaycev.net"
-       version="0.2.1"
+       version="0.2.2"
        provider-name="TDW">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,7 +14,7 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary>zaycev.net</summary>
-    <description>zaycev.net test</description>
+    <description>zaycev.net test-01</description>
   </extension>
 </addon>
 
