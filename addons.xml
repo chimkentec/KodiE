@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.audio.zaycev.net"
        name="zaycev.net"
-       version="0.2.0"
+       version="0.2.1"
        provider-name="TDW">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,7 +14,7 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary>zaycev.net</summary>
-    <description>zaycev.net</description>
+    <description>zaycev.net test</description>
   </extension>
 </addon>
 
@@ -55,5 +55,25 @@
     <description>LostFilm for AceStreem, YATP or Libtorrent</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="repository.chimkentec"
+       name="chimkentec Add-ons"
+	   version="1.0.2"
+	   provider-name="TDW1980">
+<requires>
+  <import addon="xbmc.addon" version="12.0.0"/>
+</requires>
+	<extension point="xbmc.addon.repository" name="KodiE">
+		<info compressed="false">https://github.com/chimkentec/KodiE/raw/master/addons.xml</info>
+		<checksum>https://github.com/chimkentec/KodiE/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/chimkentec/KodiE/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from chimkentec Add-on Repository</summary>
+		<description>Plug-ins for XBMC</description>
+		<disclaimer>There are git my add-ons for XBMC</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>

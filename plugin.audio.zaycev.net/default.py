@@ -88,7 +88,7 @@ def Root():
 				item.setInfo(type="Music", infoLabels={"Title": title})
 				xbmcplugin.addDirectoryItem(pluginhandle, uri, item, True)
 
-				title="Жанры"
+				title="Тестовые Жанры"
 				url=""
 				img=thumb
 				uri = sys.argv[0] + '?mode=genres'
