@@ -77,7 +77,7 @@ def Format(t):
 	return title
 
 def Root():
-				title="Поиск"
+				title="Тестовый Поиск"
 				url=""
 				img=thumb
 				uri = sys.argv[0] + '?mode=title'
