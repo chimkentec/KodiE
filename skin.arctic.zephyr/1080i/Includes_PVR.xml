@@ -8,13 +8,13 @@
             <include>GlobalOverlay</include>
         </control>
         <control type="group">
-            <height>732</height>
+            <height>102</height>
             <include>Def9000Background</include>
             <control type="grouplist" id="9000">
-                <height>700</height>
+                <height>100</height>
                 <onback condition="Window.IsVisible(MyPVRGuide.xml) + Control.IsVisible(10)">ActivateWindow(home)</onback>
                 <include>Def9000GroupList</include>
-                <control type="button" id="9001">
+              <!--   <control type="button" id="9001">
                     <description>Channels</description>
                     <label>19019</label>
                     <onclick>ActivateWindow(TVChannels)</onclick>
@@ -48,7 +48,7 @@
                     <onclick>ActivateWindow(TVSearch)</onclick>
                     <include>DefContextButton</include>
                     <align>left</align>
-                </control>
+                </control> -->
                 
                 
                 <!-- PVR options -->
@@ -66,7 +66,7 @@
                     <include>DefContextButton</include>
                     <align>left</align>
                 </control>
-                <control type="button" id="2">
+                <!-- <control type="button" id="2">
                     <description>View</description>
                     <include>DefContextButton</include>
                     <align>left</align>
@@ -103,7 +103,7 @@
                     <include>DefContextButton</include>
                     <align>left</align>
                     <visible>Window.IsVisible(MyPVRChannels.xml)</visible>
-                </control>
+                </control> -->
                 
             </control>
         </control>

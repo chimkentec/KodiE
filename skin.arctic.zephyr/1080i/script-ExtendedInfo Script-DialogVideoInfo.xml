@@ -145,11 +145,11 @@
                         
                     </control>
                     <control type="button" id ="9004">
-                        <description>Youtube</description>
-                        <label>$ADDON[script.extendedinfo 32118]</label>
+                        <description>Search</description>
+                        <label>Искать</label>
                         <include>DefInfoButtons</include>
-                        <onclick>SetProperty(content,350)</onclick>
-                        <onclick>SetFocus(350)</onclick>
+                        <onclick>ActivateWindow(videos,plugin://plugin.video.torrenter/?action=search&amp;showKey=false&url=$INFO[Window.Property(movie.title)],return)</onclick>
+                        <onclick>Dialog.Close(all, force)</onclick>
                     </control>
                     <control type="button" id ="9005">
                         <description>Crew</description>

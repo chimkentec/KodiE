@@ -226,7 +226,7 @@
             <name>LargeBold</name>
             <style>uppercase</style>
             <filename>RobotoCondensed-Bold.ttf</filename>
-            <size>48</size>
+            <size>72</size>
         </font>
         <font>
             <name>Lyrics</name>
@@ -253,6 +253,7 @@
             <filename>RobotoCondensed-Bold.ttf</filename>
             <size>38</size>
         </font>
+        
         
         <font>
             <name>Small</name>
@@ -320,6 +321,7 @@
             <filename>RobotoCondensed-Bold.ttf</filename>
             <size>22</size>
         </font>
+
        
         <!-- Required for system -->
         <font>
@@ -329,7 +331,7 @@
         </font>
 
     </fontset>
-    
+
     
     
 </fonts>
