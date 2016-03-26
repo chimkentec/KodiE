@@ -313,15 +313,16 @@
 </addon>
 
 <addon
-    id="skin.arctic.zephyr"
-    version="2.0.0c"
-    name="Arctic: Zephyr"
-    provider-name="jurialmunkey">
+    id="skin.arctic.zephyr.easymodo"
+    version="0.0.1"
+    name="Arctic: Zephyr EasyMODo"
+    provider-name="jurialmunkey - Mod by Chimkentec">
     <requires>
         <import addon="xbmc.gui" version="5.9.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
         <import addon="service.library.data.provider" version="0.1.0"/>
         <import addon="script.extendedinfo" version="3.0.0"/>
+        <import addon="script.globalsearch" version="5.0.0"/>
         <import addon="script.globalsearch" version="5.0.0"/>
     </requires>
     <extension
